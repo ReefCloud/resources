@@ -36,7 +36,7 @@ bibliography: resources/references.bib
 
 ReefCloud offers access to environmental data layers used for statistical data integration in our [Dashboard](https://reefcloud.ai/dashboard/?x=143.64606&y=-16.83296&z=5.25959&level=2&id=1698). The statistical integration models the spatial and temporal series of coral and macroalgae cover across geographies. This allows the creation of summaries on the status and trends of coral reefs at management scales from individual monitoring observations. The figure below shows the outputs from the statistical integration of monitoring data from various institutions across more than 400 sites monitored between 2004 and 2022 (click on the figure to visualise the data in the ReefCloud dashboard).
 
-[![Temporal trends of coral cover in the Central Southern Great Barrier Reef](fig/CS_GBR_temporalTrend.PNG){width="543"}](https://reefcloud.ai/dashboard/?x=146.50275&y=-19.75717&z=6.01795&level=3&id=1715)
+[![Temporal trends of coral cover in the Central Southern Great Barrier Reef](img/CS_GBR_temporalTrend.PNG)](https://reefcloud.ai/dashboard/?x=146.50275&y=-19.75717&z=6.01795&level=3&id=1715)
 
 Environmental data from major disturbances are used as co-variates to explain the variability in the observed changes in coral and macroalgae cover. Currently, there are two environmental datasets available in ReefCloud through our GeoServer:
 
@@ -54,7 +54,7 @@ Environmental data from major disturbances are used as co-variates to explain th
 
 : Including environmental co-variates in statistical analyses of coral cover trends can help explain the observed patterns (see figure below, hyperlinked to the ReefCloud Dashboard). While these analyses are automatically generated and available in ReefCloud from the integration of all publically available coral reef data in the platform, individual users might be interested on environmental data layers for their own analyses. So, we have made these datasets accessible through our GIS database (GeoServer). The sections below describe how to access these data in R.
 
-[![Temporal hard coral cover and environmental disturbances](fig/TemporalCover_Disturbance.PNG){fig-align="center"}](https://reefcloud.ai/dashboard/?x=145.64945&y=-14.62960&z=14.00000&level=6&id=1539)
+[![Temporal hard coral cover and environmental disturbances](img/TemporalCover_Disturbance.PNG){fig-align="center"}](https://reefcloud.ai/dashboard/?x=145.64945&y=-14.62960&z=14.00000&level=6&id=1539)
 
 ::: callout-warning
 *The GeoServer allows free access to environmental data in ReefCloud, but it is a small server designed for small access queries and low traffic. This means that access requests for large areas (e.g., large EEZs or Regions) will likely time out, rendering the system unresponsive.*

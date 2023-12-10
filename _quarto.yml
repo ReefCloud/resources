@@ -22,7 +22,7 @@ website:
 
 format:
   html:
-    theme: sketchy
+    theme: journal
     toc: true
 
 editor: source

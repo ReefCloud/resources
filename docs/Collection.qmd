@@ -1,5 +1,0 @@
----
-title: "Collection"
----
-
-# Phototransect methodology

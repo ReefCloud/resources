@@ -1,5 +1,0 @@
----
-title: "Reporting"
----
-
-# Template 1
