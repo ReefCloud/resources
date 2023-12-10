@@ -2,9 +2,9 @@
   {
     "objectID": "Analyses.html",
     "href": "Analyses.html",
-    "title": "Analyses",
+    "title": "Data Analyses in R",
     "section": "",
-    "text": "Environmental data\n\nAceess environmental data from ReefCloud"
+    "text": "This page collated a series of vignettes that illustrate brief examples on how to perform analyses relevant to provide interpretation of monitoring data from ReefCloud or other sources.\n\nEnvironmental data\n\nAccess environmental data from ReefCloud"
   },
   {
     "objectID": "Collection.html",
@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "About this page",
     "section": "",
-    "text": "This site is a constantly evolving repository where you can find a range of resources to maximise your experience with ReefCloud. This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.\nFor more documentation about how to use ReefCloud, check out our [User Documentation])(https://docs.reefcloud.ai/).\n\n\n\nHow-to videos\nData analyes in R\nReporting templates\nPresentations"
+    "text": "This site is a constantly evolving repository where you can find a range of resources to maximise your experience with ReefCloud. This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.\nFor more documentation about how to use ReefCloud, check out our User Documentation.\n\n\n\nHow-to videos\nR code examples\nTemplates\nPresentations"
   },
   {
     "objectID": "index.html#here-you-can-find",
     "href": "index.html#here-you-can-find",
     "title": "About this page",
     "section": "",
-    "text": "How-to videos\nData analyes in R\nReporting templates\nPresentations"
+    "text": "How-to videos\nR code examples\nTemplates\nPresentations"
   },
   {
     "objectID": "projects.html#project-2",
@@ -47,6 +47,48 @@
     "title": "Reporting",
     "section": "",
     "text": "Template 1"
+  },
+  {
+    "objectID": "Vignette_extract_ACA_habitats.html",
+    "href": "Vignette_extract_ACA_habitats.html",
+    "title": "Extract Habitat Classification from the Allen Coral Atlas",
+    "section": "",
+    "text": "Warning\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\n\n\n\n\n\n\nGeomorphicBenthicFurther information"
+  },
+  {
+    "objectID": "Vignette_extract_ACA_habitats.html#dataset-description",
+    "href": "Vignette_extract_ACA_habitats.html#dataset-description",
+    "title": "Extract Habitat Classification from the Allen Coral Atlas",
+    "section": "",
+    "text": "GeomorphicBenthicFurther information"
+  },
+  {
+    "objectID": "Vignette_extract_ACA_habitats.html#connect-to-the-aca-server",
+    "href": "Vignette_extract_ACA_habitats.html#connect-to-the-aca-server",
+    "title": "Extract Habitat Classification from the Allen Coral Atlas",
+    "section": "Connect to the ACA Server",
+    "text": "Connect to the ACA Server\nThe code below allows you to create a connection to the server and explore the available data layers.\n\n\nCode\nlibrary(sf) # simple features packages for handling vector GIS data\nlibrary(httr) # generic webservice package\nlibrary(tidyverse) # a suite of packages for data wrangling, transformation, plotting, ...\nlibrary(ows4R) # interface for OGC webservices\nlibrary(rnaturalearth) #World Map data from Natural Earth\nlibrary(leaflet)\nlibrary(leafem)\nlibrary(knitr)\n\n\n#Base Layer for ACA GeoServer\naca_geo&lt;-\"https://allencoralatlas.org/geoserver/ows\"\n\n# Establish a connection\naca_client &lt;- WFSClient$new(aca_geo, \n                           serviceVersion = \"1.0.0\")\n#List of features\naca_lyrs&lt;-aca_client$getFeatureTypes(pretty = TRUE)\naca_lyrs\n\n\n                                 name                             title\n1    coral-atlas:benthic_data_verbose    Allen Coral Atlas benthic data\n2 coral-atlas:geomorphic_data_verbose Allen Coral Atlas geomorphic data"
+  },
+  {
+    "objectID": "Vignette_extract_ACA_habitats.html#request-data-for-your-monitoring-region",
+    "href": "Vignette_extract_ACA_habitats.html#request-data-for-your-monitoring-region",
+    "title": "Extract Habitat Classification from the Allen Coral Atlas",
+    "section": "Request data for your monitoring region",
+    "text": "Request data for your monitoring region\nLet’s assume I have two monitoring sites (i.e., locations) in Palau, and I want to extract the geomorphic habitat classification for these sites. The code below allows you to generate your sites and create a bounding box to delineate the spatial extent of your monitoring and query the GeoServer.\n\n\nCode\nurl &lt;- parse_url(aca_geo)\n\n#Generate sites \nsites&lt;- data.frame(x=c(134.35, 134.43), y=c(7.42,7.28))%&gt;%\n  as.matrix() %&gt;%\n  st_multipoint() %&gt;% \n  st_sfc(crs=4326) %&gt;% \n  st_cast('POINT') %&gt;%\n  st_sf(name=c(\"Site1\", \"Site2\"))\n\n# create a bounding box for a spatial query.\nmy.bbox&lt;-st_bbox(st_buffer(sites,dist = 0.1))\n\nleaflet()%&gt;%addExtent(data=my.bbox,\n                        color = \"red\", \n                          stroke=T,\n                      weight = 1, \n                      smoothFactor = 0.5,\n                      opacity = 1.0, \n                      fillOpacity = 0.5,\n                      fillColor = NULL,\n                      highlightOptions = highlightOptions(color = \"white\", weight = 2,bringToFront = TRUE))%&gt;%\n  addMarkers(data=sites, label = ~name)%&gt;%\n  addProviderTiles(providers$Esri.WorldImagery)\n\n\n\n\n\n\nUsing this bounding box, we can query the server to extract the geomorphic data within this region. The table below is a simple feature data frame (spatial object) containing all the data stored in the GeoServer for geopmorphic habitat classification within the bounding box.\n\n\nCode\n#convert bounding box into string for the query\nmy.bbox&lt;- my.bbox %&gt;%\n  as.character()%&gt;%\n  paste(.,collapse = ',')\n\n#set up your query\nurl$query &lt;- list(service = \"WFS\",\n                  version = \"1.0.0\",\n                  request = \"GetFeature\",\n                  typename = aca_lyrs$name[2], # I am selecting this layer:\"reefcloud:storm4m_exposure_year_tier\",\n                  bbox = my.bbox,\n                  width=768,\n                  height=330,\n                  srs=\"EPSG%3A4326\",\n                  styles='',\n                  format=\"application/openlayers\")\nrequest &lt;- build_url(url)\n\n#request the data and set up coordinate reference\npalau&lt;- read_sf(request)%&gt;%st_set_crs(4326)\n\n\npal &lt;- colorFactor(\n  palette = \"YlOrRd\",\n  domain = palau$class_name\n)\n\nleaflet(palau)%&gt;%addPolygons(color = \"#444444\", \n                          stroke=F,\n                      weight = 1, \n                      smoothFactor = 0.5,\n                      opacity = 1.0, \n                      fillOpacity = 1,\n                      fillColor = ~pal(as.factor(palau$class_name)),\n                      highlightOptions = highlightOptions(color = \"white\", weight = 2,bringToFront = TRUE))%&gt;%\n  addLegend(\"bottomright\", pal = pal, values = ~as.factor(palau$class_name),\n    title = \"Geomorphic classification &lt;/br&gt; Allen Coral Atlas\",\n    labFormat = labelFormat(),\n    opacity = 1\n  )%&gt;%\n  addMarkers(data=sites, label = ~name)%&gt;%\n  addProviderTiles(providers$Esri.WorldImagery)"
+  },
+  {
+    "objectID": "Vignette_extract_ACA_habitats.html#extract-data-for-monitoring-sites",
+    "href": "Vignette_extract_ACA_habitats.html#extract-data-for-monitoring-sites",
+    "title": "Extract Habitat Classification from the Allen Coral Atlas",
+    "section": "Extract data for monitoring sites",
+    "text": "Extract data for monitoring sites\nThe steps above allowed us to download the habitat data within the bounding box. Now the data are loaded in the memory, we want to extract the specific habitat classification for each site. This code intercepts your sites with the habitat layer to produce tabulated data of habitat classification at each site.\n\n\nCode\ndata = st_intersection(st_buffer(sites, 0.0002), palau)%&gt;%st_drop_geometry()%&gt;%\n  dplyr::select(name,class_name)%&gt;%\n  rename(Geomorphic=class_name)\n  \nkable(data,format=\"html\",\n             caption=\"Table 1. Geomophic habitat classification for monitoring sites. Source: Allen Coral Atlas.\",\n            ) \n\n\n\nTable 1. Geomophic habitat classification for monitoring sites. Source: Allen Coral Atlas.\n\n\n\nname\nGeomorphic\n\n\n\n\n2\nSite2\nDeep Lagoon\n\n\n1\nSite1\nInner Reef Flat\n\n\n\n\n\n\n\nNow, you are ready to start your analyses. Enjoy!"
+  },
+  {
+    "objectID": "Vignette_extract_ACA_habitats.html#notes",
+    "href": "Vignette_extract_ACA_habitats.html#notes",
+    "title": "Extract Habitat Classification from the Allen Coral Atlas",
+    "section": "Notes",
+    "text": "Notes"
   },
   {
     "objectID": "Vignette_extract_RC_covariates.html",

@@ -1,6 +1,10 @@
 ---
-title: "Analyses"
+title: "Data Analyses in R"
 ---
 
+This page collated a series of vignettes that illustrate brief examples on how to perform analyses relevant to provide interpretation of monitoring data from ReefCloud or other sources. 
+
+
 # Environmental data
-- [Aceess environmental data from ReefCloud](https://reefcloud.github.io/resources/Vignette_extract_RC_covariates.html)
+- [Access environmental data from ReefCloud](https://reefcloud.github.io/resources/Vignette_extract_RC_covariates.html)
+- [Access habitat classificaition from the Allen Coral Atlas](https://reefcloud.github.io/resources/Vignette_extract_ACA_habitats.html)

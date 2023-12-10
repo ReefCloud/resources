@@ -1,0 +1,186 @@
+---
+title: "Extract Habitat Classification from the Allen Coral Atlas"
+subtitle: "A brief walk through to get habitat information for your monitoring sites from the Allen Coral Atlas in R"
+title-block-banner: "#d42555"
+author:
+  - name: "Manuel Gonzalez-Rivero"
+    id: "mgr"
+    affiliations:
+      - "Australian Insitute of Marine Science"
+    orcid: 0000-0003-0252-584X
+funding:
+  - source: "Australian Department of Foreign Affairs"
+    investigator: 
+      - ref: "mgr"
+date: last-modified
+date-format: short
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: Contents
+    code-fold: true
+    smooth-scroll: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    highlight-style: github
+    include: true
+editor: visual
+execute:
+  warning: false
+css: resources/styles.css
+bibliography: resources/references.bib
+---
+
+# Introduction
+
+::: callout-warning
+:::
+
+::: callout-note
+:::
+
+## Dataset description
+
+### 
+
+::: panel-tabset
+#### Geomorphic
+
+#### Benthic
+
+#### Further information
+:::
+
+# Access the data
+
+## *Connect to the ACA Server*
+
+The code below allows you to create a connection to the server and explore the available data layers.
+
+```{r setup, include=T}
+library(sf) # simple features packages for handling vector GIS data
+library(httr) # generic webservice package
+library(tidyverse) # a suite of packages for data wrangling, transformation, plotting, ...
+library(ows4R) # interface for OGC webservices
+library(rnaturalearth) #World Map data from Natural Earth
+library(leaflet)
+library(leafem)
+library(knitr)
+
+
+#Base Layer for ACA GeoServer
+aca_geo<-"https://allencoralatlas.org/geoserver/ows"
+
+# Establish a connection
+aca_client <- WFSClient$new(aca_geo, 
+                           serviceVersion = "1.0.0")
+#List of features
+aca_lyrs<-aca_client$getFeatureTypes(pretty = TRUE)
+aca_lyrs
+
+```
+
+## Request data for your monitoring region
+
+Let's assume I have two monitoring sites (i.e., locations) in Palau, and I want to extract the geomorphic habitat classification for these sites. The code below allows you to generate your sites and create a bounding box to delineate the spatial extent of your monitoring and query the GeoServer.
+
+```{r}
+
+url <- parse_url(aca_geo)
+
+#Generate sites 
+sites<- data.frame(x=c(134.35, 134.43), y=c(7.42,7.28))%>%
+  as.matrix() %>%
+  st_multipoint() %>% 
+  st_sfc(crs=4326) %>% 
+  st_cast('POINT') %>%
+  st_sf(name=c("Site1", "Site2"))
+
+# create a bounding box for a spatial query.
+my.bbox<-st_bbox(st_buffer(sites,dist = 0.1))
+
+leaflet()%>%addExtent(data=my.bbox,
+                        color = "red", 
+                          stroke=T,
+                      weight = 1, 
+                      smoothFactor = 0.5,
+                      opacity = 1.0, 
+                      fillOpacity = 0.5,
+                      fillColor = NULL,
+                      highlightOptions = highlightOptions(color = "white", weight = 2,bringToFront = TRUE))%>%
+  addMarkers(data=sites, label = ~name)%>%
+  addProviderTiles(providers$Esri.WorldImagery)
+
+
+```
+
+Using this bounding box, we can query the server to extract the geomorphic data within this region. The table below is a simple feature data frame (spatial object) containing all the data stored in the GeoServer for geopmorphic habitat classification within the bounding box.
+
+```{r}
+#convert bounding box into string for the query
+my.bbox<- my.bbox %>%
+  as.character()%>%
+  paste(.,collapse = ',')
+
+#set up your query
+url$query <- list(service = "WFS",
+                  version = "1.0.0",
+                  request = "GetFeature",
+                  typename = aca_lyrs$name[2], # I am selecting this layer:"reefcloud:storm4m_exposure_year_tier",
+                  bbox = my.bbox,
+                  width=768,
+                  height=330,
+                  srs="EPSG%3A4326",
+                  styles='',
+                  format="application/openlayers")
+request <- build_url(url)
+
+#request the data and set up coordinate reference
+palau<- read_sf(request)%>%st_set_crs(4326)
+
+
+pal <- colorFactor(
+  palette = "YlOrRd",
+  domain = palau$class_name
+)
+
+leaflet(palau)%>%addPolygons(color = "#444444", 
+                          stroke=F,
+                      weight = 1, 
+                      smoothFactor = 0.5,
+                      opacity = 1.0, 
+                      fillOpacity = 1,
+                      fillColor = ~pal(as.factor(palau$class_name)),
+                      highlightOptions = highlightOptions(color = "white", weight = 2,bringToFront = TRUE))%>%
+  addLegend("bottomright", pal = pal, values = ~as.factor(palau$class_name),
+    title = "Geomorphic classification </br> Allen Coral Atlas",
+    labFormat = labelFormat(),
+    opacity = 1
+  )%>%
+  addMarkers(data=sites, label = ~name)%>%
+  addProviderTiles(providers$Esri.WorldImagery)
+
+```
+
+## *Extract data for monitoring sites*
+
+The steps above allowed us to download the habitat data within the bounding box. Now the data are loaded in the memory, we want to extract the specific habitat classification for each site. This code intercepts your sites with the habitat layer to produce tabulated data of habitat classification at each site.
+
+```{r}
+data = st_intersection(st_buffer(sites, 0.0002), palau)%>%st_drop_geometry()%>%
+  dplyr::select(name,class_name)%>%
+  rename(Geomorphic=class_name)
+  
+kable(data,format="html",
+             caption="Table 1. Geomophic habitat classification for monitoring sites. Source: Allen Coral Atlas.",
+            ) 
+
+
+```
+
+Now, you are ready to start your analyses. Enjoy!
+
+## Notes
+
+-   
