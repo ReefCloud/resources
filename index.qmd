@@ -2,7 +2,7 @@
 title: "About this page"
 about:
   id: me
-  template: broadside
+  template: trestles
   image: img/ReefCloud_Icon_FC.png
 ---
 

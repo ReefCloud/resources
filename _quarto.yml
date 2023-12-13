@@ -5,6 +5,7 @@ project:
 website:
   title: "Resources"
   navbar:
+    logo: url(https://reefcloud.ai/static/media/coreLogoName.04eb209b6a92259208f9d8edb621bc4c.svg)
     left:
       - href: index.qmd
         text: Home
@@ -24,6 +25,7 @@ format:
   html:
     theme: journal
     toc: true
+    monobackgroundcolor: "#d42555"
 
 editor: source
 
