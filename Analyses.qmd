@@ -2,9 +2,20 @@
 title: "Data Analyses in R"
 ---
 
-This page collated a series of vignettes that illustrate brief examples on how to perform analyses relevant to provide interpretation of monitoring data from ReefCloud or other sources. 
+This page collated a series of vignettes and tutorials that illustrate brief examples on how to perform analyses relevant to provide interpretation of monitoring data from ReefCloud or other sources. 
 
+# Tutorials
 
-# Environmental data
+## R basics
+ - [Introduction to R](https://reefcloud.github.io/workshops/01_introduction_to_r.html)
+ - [Selecting your Code Editor](https://reefcloud.github.io/workshops/02_editors.html)
+ - [Managing data in R](https://reefcloud.github.io/workshops/03_data_frames.html)
+ - [Data wrangling](https://reefcloud.github.io/workshops/04_data_wrangling.html)
+ - [Introduction to Graphs](https://reefcloud.github.io/workshops/05_grammar_of_graphics.html)
+ 
+## Reproducible research
+- [Introduction to Version Control](https://reefcloud.github.io/workshops/10_git.html)
+
+# Accessing environmental data
 - [Access environmental data from ReefCloud](https://reefcloud.github.io/resources/Vignette_extract_RC_covariates.html)
 - [Access habitat classificaition from the Allen Coral Atlas](https://reefcloud.github.io/resources/Vignette_extract_ACA_habitats.html)

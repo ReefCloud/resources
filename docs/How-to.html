@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resources - Data Analyses in R</title>
+<title>Resources - How-to</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./url(https://reefcloud.ai/static/media/coreLogoName.04eb209b6a92259208f9d8edb621bc4c.svg)" alt="" class="navbar-logo">
+    <img src="./url( https://reefcloud.ai/static/media/coreLogoName.04eb209b6a92259208f9d8edb621bc4c.svg )" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Resources</span>
@@ -86,14 +86,12 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
-  <li class="dropdown-header">
- <span class="menu-text">Documentation.qmd</span></li>
   <li class="nav-item">
-    <a class="nav-link" href="./How-to.html" rel="" target="">
+    <a class="nav-link active" href="./How-to.html" rel="" target="" aria-current="page">
  <span class="menu-text">How-to</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Analyses.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./Analyses.html" rel="" target="">
  <span class="menu-text">Data Analyses in R</span></a>
   </li>  
   <li class="nav-item">
@@ -118,12 +116,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tutorials" id="toc-tutorials" class="nav-link active" data-scroll-target="#tutorials">Tutorials</a>
+  <li><a href="#get-started-in-reefcloud" id="toc-get-started-in-reefcloud" class="nav-link active" data-scroll-target="#get-started-in-reefcloud">1. Get started in ReefCloud</a>
   <ul class="collapse">
-  <li><a href="#r-basics" id="toc-r-basics" class="nav-link" data-scroll-target="#r-basics">R basics</a></li>
-  <li><a href="#reproducible-research" id="toc-reproducible-research" class="nav-link" data-scroll-target="#reproducible-research">Reproducible research</a></li>
+  <li><a href="#create-a-user-account" id="toc-create-a-user-account" class="nav-link" data-scroll-target="#create-a-user-account">Create a User Account</a></li>
+  <li><a href="#create-a-new-project" id="toc-create-a-new-project" class="nav-link" data-scroll-target="#create-a-new-project">Create a New Project</a></li>
+  <li><a href="#add-users-and-manage-project-permissions" id="toc-add-users-and-manage-project-permissions" class="nav-link" data-scroll-target="#add-users-and-manage-project-permissions">Add Users and Manage Project Permissions</a></li>
   </ul></li>
-  <li><a href="#accessing-environmental-data" id="toc-accessing-environmental-data" class="nav-link" data-scroll-target="#accessing-environmental-data">Accessing environmental data</a></li>
+  <li><a href="#manage-your-data" id="toc-manage-your-data" class="nav-link" data-scroll-target="#manage-your-data">2. Manage your data</a>
+  <ul class="collapse">
+  <li><a href="#manage-and-map-labelsets-taxonomy" id="toc-manage-and-map-labelsets-taxonomy" class="nav-link" data-scroll-target="#manage-and-map-labelsets-taxonomy">Manage and Map Labelsets (Taxonomy)</a></li>
+  <li><a href="#add-and-manage-sites" id="toc-add-and-manage-sites" class="nav-link" data-scroll-target="#add-and-manage-sites">Add and Manage Sites</a></li>
+  <li><a href="#add-and-manage-survey-images" id="toc-add-and-manage-survey-images" class="nav-link" data-scroll-target="#add-and-manage-survey-images">Add and Manage Survey images</a></li>
+  <li><a href="#view-enable-disable-and-delete-images" id="toc-view-enable-disable-and-delete-images" class="nav-link" data-scroll-target="#view-enable-disable-and-delete-images">View, Enable, Disable, and Delete Images</a></li>
+  </ul></li>
+  <li><a href="#analyse-your-data" id="toc-analyse-your-data" class="nav-link" data-scroll-target="#analyse-your-data">3. Analyse your data</a>
+  <ul class="collapse">
+  <li><a href="#classify-images" id="toc-classify-images" class="nav-link" data-scroll-target="#classify-images">Classify Images</a></li>
+  <li><a href="#interpret-ai-results" id="toc-interpret-ai-results" class="nav-link" data-scroll-target="#interpret-ai-results">Interpret AI results</a></li>
+  <li><a href="#export-your-data" id="toc-export-your-data" class="nav-link" data-scroll-target="#export-your-data">Export your data</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -132,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Analyses in R</h1>
+<h1 class="title">How-to</h1>
 </div>
 
 
@@ -147,34 +158,58 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This page collated a series of vignettes and tutorials that illustrate brief examples on how to perform analyses relevant to provide interpretation of monitoring data from ReefCloud or other sources.</p>
-<section id="tutorials" class="level1">
-<h1>Tutorials</h1>
-<section id="r-basics" class="level2">
-<h2 class="anchored" data-anchor-id="r-basics">R basics</h2>
-<ul>
-<li><a href="https://reefcloud.github.io/workshops/01_introduction_to_r.html">Introduction to R</a></li>
-<li><a href="https://reefcloud.github.io/workshops/02_editors.html">Selecting your Code Editor</a></li>
-<li><a href="https://reefcloud.github.io/workshops/03_data_frames.html">Managing data in R</a></li>
-<li><a href="https://reefcloud.github.io/workshops/04_data_wrangling.html">Data wrangling</a></li>
-<li><a href="https://reefcloud.github.io/workshops/05_grammar_of_graphics.html">Introduction to Graphs</a></li>
-</ul>
+<p>Here you will find a series of short videos to guide you on “how to” do specific tasks in ReefCloud. Use the menu bar on the right or the searching function at the top to explore the topics we have prepared for you. They are organised in a sequential way, from getting started as a new user in ReefCloud, to managing your survey data, utilising AI for annotating your images, and exporting your results.</p>
+<p>If you would like to see additional topics added to this list, please let us know at reefcloud@aims.gov.au.</p>
+<section id="get-started-in-reefcloud" class="level1">
+<h1>1. Get started in ReefCloud</h1>
+<section id="create-a-user-account" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-user-account">Create a User Account</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/I1onnmXqMQA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="reproducible-research" class="level2">
-<h2 class="anchored" data-anchor-id="reproducible-research">Reproducible research</h2>
-<ul>
-<li><a href="https://reefcloud.github.io/workshops/10_git.html">Introduction to Version Control</a></li>
-</ul>
+<section id="create-a-new-project" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-new-project">Create a New Project</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/38tArMRV-0M" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="add-users-and-manage-project-permissions" class="level2">
+<h2 class="anchored" data-anchor-id="add-users-and-manage-project-permissions">Add Users and Manage Project Permissions</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EIaBEputXhA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 </section>
-<section id="accessing-environmental-data" class="level1">
-<h1>Accessing environmental data</h1>
-<ul>
-<li><a href="https://reefcloud.github.io/resources/Vignette_extract_RC_covariates.html">Access environmental data from ReefCloud</a></li>
-<li><a href="https://reefcloud.github.io/resources/Vignette_extract_ACA_habitats.html">Access habitat classificaition from the Allen Coral Atlas</a></li>
-</ul>
+<section id="manage-your-data" class="level1">
+<h1>2. Manage your data</h1>
+<section id="manage-and-map-labelsets-taxonomy" class="level2">
+<h2 class="anchored" data-anchor-id="manage-and-map-labelsets-taxonomy">Manage and Map Labelsets (Taxonomy)</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/V443c8gLrAs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="add-and-manage-sites" class="level2">
+<h2 class="anchored" data-anchor-id="add-and-manage-sites">Add and Manage Sites</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/MWPBq2Ud_iQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="add-and-manage-survey-images" class="level2">
+<h2 class="anchored" data-anchor-id="add-and-manage-survey-images">Add and Manage Survey images</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Gfz3Ev9AGF8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="view-enable-disable-and-delete-images" class="level2">
+<h2 class="anchored" data-anchor-id="view-enable-disable-and-delete-images">View, Enable, Disable, and Delete Images</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/sA68AmrmaZI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+<section id="analyse-your-data" class="level1">
+<h1>3. Analyse your data</h1>
+<section id="classify-images" class="level2">
+<h2 class="anchored" data-anchor-id="classify-images">Classify Images</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/toK-b7fMhXc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="interpret-ai-results" class="level2">
+<h2 class="anchored" data-anchor-id="interpret-ai-results">Interpret AI results</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/BI5inlBBUe0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="export-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="export-your-data">Export your data</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/kdiypopB4T8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -4,7 +4,7 @@
     "href": "Analyses.html",
     "title": "Data Analyses in R",
     "section": "",
-    "text": "This page collated a series of vignettes that illustrate brief examples on how to perform analyses relevant to provide interpretation of monitoring data from ReefCloud or other sources.\n\nEnvironmental data\n\nAccess environmental data from ReefCloud\nAccess habitat classificaition from the Allen Coral Atlas"
+    "text": "This page collated a series of vignettes and tutorials that illustrate brief examples on how to perform analyses relevant to provide interpretation of monitoring data from ReefCloud or other sources."
   },
   {
     "objectID": "Collection.html",
@@ -180,5 +180,96 @@
     "title": "How-to",
     "section": "Export your data",
     "text": "Export your data"
+  },
+  {
+    "objectID": "How-to.html",
+    "href": "How-to.html",
+    "title": "How-to",
+    "section": "",
+    "text": "Here you will find a series of short videos to guide you on “how to” do specific tasks in ReefCloud. Use the menu bar on the right or the searching function at the top to explore the topics we have prepared for you. They are organised in a sequential way, from getting started as a new user in ReefCloud, to managing your survey data, utilising AI for annotating your images, and exporting your results.\nIf you would like to see additional topics added to this list, please let us know at reefcloud@aims.gov.au."
+  },
+  {
+    "objectID": "How-to.html#create-a-user-account",
+    "href": "How-to.html#create-a-user-account",
+    "title": "How-to",
+    "section": "Create a User Account",
+    "text": "Create a User Account"
+  },
+  {
+    "objectID": "How-to.html#create-a-new-project",
+    "href": "How-to.html#create-a-new-project",
+    "title": "How-to",
+    "section": "Create a New Project",
+    "text": "Create a New Project"
+  },
+  {
+    "objectID": "How-to.html#add-users-and-manage-project-permissions",
+    "href": "How-to.html#add-users-and-manage-project-permissions",
+    "title": "How-to",
+    "section": "Add Users and Manage Project Permissions",
+    "text": "Add Users and Manage Project Permissions"
+  },
+  {
+    "objectID": "How-to.html#manage-and-map-labelsets-taxonomy",
+    "href": "How-to.html#manage-and-map-labelsets-taxonomy",
+    "title": "How-to",
+    "section": "Manage and Map Labelsets (Taxonomy)",
+    "text": "Manage and Map Labelsets (Taxonomy)"
+  },
+  {
+    "objectID": "How-to.html#add-and-manage-sites",
+    "href": "How-to.html#add-and-manage-sites",
+    "title": "How-to",
+    "section": "Add and Manage Sites",
+    "text": "Add and Manage Sites"
+  },
+  {
+    "objectID": "How-to.html#add-and-manage-survey-images",
+    "href": "How-to.html#add-and-manage-survey-images",
+    "title": "How-to",
+    "section": "Add and Manage Survey images",
+    "text": "Add and Manage Survey images"
+  },
+  {
+    "objectID": "How-to.html#view-enable-disable-and-delete-images",
+    "href": "How-to.html#view-enable-disable-and-delete-images",
+    "title": "How-to",
+    "section": "View, Enable, Disable, and Delete Images",
+    "text": "View, Enable, Disable, and Delete Images"
+  },
+  {
+    "objectID": "How-to.html#classify-images",
+    "href": "How-to.html#classify-images",
+    "title": "How-to",
+    "section": "Classify Images",
+    "text": "Classify Images"
+  },
+  {
+    "objectID": "How-to.html#interpret-ai-results",
+    "href": "How-to.html#interpret-ai-results",
+    "title": "How-to",
+    "section": "Interpret AI results",
+    "text": "Interpret AI results"
+  },
+  {
+    "objectID": "How-to.html#export-your-data",
+    "href": "How-to.html#export-your-data",
+    "title": "How-to",
+    "section": "Export your data",
+    "text": "Export your data"
+  },
+  {
+    "objectID": "Analyses.html#r-basics",
+    "href": "Analyses.html#r-basics",
+    "title": "Data Analyses in R",
+    "section": "R basics",
+    "text": "R basics\n\nIntroduction to R\nSelecting your Code Editor\nManaging data in R\nData wrangling\nIntroduction to Graphs"
+  },
+  {
+    "objectID": "Analyses.html#reproducible-research",
+    "href": "Analyses.html#reproducible-research",
+    "title": "Data Analyses in R",
+    "section": "Reproducible research",
+    "text": "Reproducible research\n\nIntroduction to Version Control"
   }
 ]

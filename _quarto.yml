@@ -5,11 +5,13 @@ project:
 website:
   title: "Resources"
   navbar:
-    logo: url(https://reefcloud.ai/static/media/coreLogoName.04eb209b6a92259208f9d8edb621bc4c.svg)
+    logo: url("https://reefcloud.ai/static/media/coreLogoName.04eb209b6a92259208f9d8edb621bc4c.svg")
     left:
       - href: index.qmd
         text: Home
-      - Collection.qmd
+      - text: Documentation
+        href: "https://github.com/reefscientist/ReefCloud/blob/training_materials/SUMMARY.md"
+      - How-to.qmd
       - Analyses.qmd
       - Reporting.qmd
     tools:
