@@ -1,5 +1,49 @@
 ---
-title: "Collection"
+title: "How-to"
 ---
 
-# Phototransect methodology
+# Get started
+
+## Create a User Account
+
+{{< video https://www.youtube.com/watch?v=I1onnmXqMQA >}}
+
+## Create a New Project
+
+{{< video https://www.youtube.com/watch?v=38tArMRV-0M&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=2 >}}
+
+## Add Users and Manage Project Permissions
+
+{{< video https://www.youtube.com/watch?v=EIaBEputXhA&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=3 >}}
+
+# Collect
+
+## Manage and Map Labelsets (Taxonomy)
+
+{{< video https://www.youtube.com/watch?v=V443c8gLrAs&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=4 >}}
+
+## Add and Manage Sites
+
+{{< video https://www.youtube.com/watch?v=MWPBq2Ud_iQ&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=5 >}}
+
+## Add and Manage Survey images
+
+{{< video https://www.youtube.com/watch?v=Gfz3Ev9AGF8&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=6>}}
+
+## View, Enable, Disable and Delete Images
+
+{{< video https://www.youtube.com/watch?v=sA68AmrmaZI&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=7>}}
+
+# Analyse
+
+## Classify Images
+
+{{< video https://www.youtube.com/watch?v=toK-b7fMhXc&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=8>}}
+
+## Interpret AI results
+
+{{< video https://www.youtube.com/watch?v=BI5inlBBUe0&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=9>}}
+
+## Export your data
+
+{{< video https://www.youtube.com/watch?v=kdiypopB4T8&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=10>}}

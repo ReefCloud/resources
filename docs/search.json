@@ -11,7 +11,7 @@
     "href": "Collection.html",
     "title": "Collection",
     "section": "",
-    "text": "Phototransect methodology"
+    "text": "Phototransect methodology\n\n\n&lt;div class=\"card-header\" id=\"headingOne\"&gt;\n  &lt;h5 class=\"mb-0\"&gt;\n    &lt;button class=\"btn btn-link\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\"&gt;\n      Collapsible Group Item #1\n    &lt;/button&gt;\n  &lt;/h5&gt;\n&lt;/div&gt;\n\n&lt;div id=\"collapseOne\" class=\"collapse show\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"card-header\" id=\"headingTwo\"&gt;\n  &lt;h5 class=\"mb-0\"&gt;\n    &lt;button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\"&gt;\n      Collapsible Group Item #2\n    &lt;/button&gt;\n  &lt;/h5&gt;\n&lt;/div&gt;\n&lt;div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionExample\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"card-header\" id=\"headingThree\"&gt;\n  &lt;h5 class=\"mb-0\"&gt;\n    &lt;button class=\"btn btn-link collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\"&gt;\n      Collapsible Group Item #3\n    &lt;/button&gt;\n  &lt;/h5&gt;\n&lt;/div&gt;\n&lt;div id=\"collapseThree\" class=\"collapse\" aria-labelledby=\"headingThree\" data-parent=\"#accordionExample\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n  &lt;/div&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "index.html",
@@ -131,5 +131,54 @@
     "title": "Environmental data in ReefCloud",
     "section": "Additional notes for the data analysis",
     "text": "Additional notes for the data analysis\n\nThermal Stress and Tropical Cyclones are discrete events. This means they happen during a relatively short period in a year. Similarly, monitoring observations are discrete, and they accumulate over the years. When analysing monitoring data and the correlation of response variables (e.g., coral cover) to the incidence of disturbances (e.g., cyclones), please note the disturbances’ start and end dates to appropriately assess a disturbance to an observation. For example, if you are monitoring a reef just before a cyclone happened but modelled coral cover over time using discrete years, assigning the cyclone exposure to that monitoring year will not capture the impact of the disturbance on the response variable.\nIt may be helpful to consider that many large-scale and intense disturbances tend to have a lag effect on coral reef benthos over the years ([Castro-Sanguino et al. (2021)](Cheal et al. 2017)).\nPlease review the limitations section for each of the datasets. Note that the spatial resolution of these variables is limited compared to monitoring data. Therefore, caution should be exercised when interpreting the results of correlative statistics."
+  },
+  {
+    "objectID": "Collection.html#manage-and-map-labelsets-taxonomy",
+    "href": "Collection.html#manage-and-map-labelsets-taxonomy",
+    "title": "How-to",
+    "section": "Manage and Map Labelsets (Taxonomy)",
+    "text": "Manage and Map Labelsets (Taxonomy)"
+  },
+  {
+    "objectID": "Collection.html#add-and-manage-sites",
+    "href": "Collection.html#add-and-manage-sites",
+    "title": "How-to",
+    "section": "Add and Manage Sites",
+    "text": "Add and Manage Sites"
+  },
+  {
+    "objectID": "Collection.html#add-and-manage-survey-images",
+    "href": "Collection.html#add-and-manage-survey-images",
+    "title": "How-to",
+    "section": "Add and Manage Survey images",
+    "text": "Add and Manage Survey images"
+  },
+  {
+    "objectID": "Collection.html#view-enable-disable-and-delete-images",
+    "href": "Collection.html#view-enable-disable-and-delete-images",
+    "title": "How-to",
+    "section": "View, Enable, Disable and Delete Images",
+    "text": "View, Enable, Disable and Delete Images"
+  },
+  {
+    "objectID": "Collection.html#classify-images",
+    "href": "Collection.html#classify-images",
+    "title": "How-to",
+    "section": "Classify Images",
+    "text": "Classify Images"
+  },
+  {
+    "objectID": "Collection.html#interpret-ai-results",
+    "href": "Collection.html#interpret-ai-results",
+    "title": "How-to",
+    "section": "Interpret AI results",
+    "text": "Interpret AI results"
+  },
+  {
+    "objectID": "Collection.html#export-your-data",
+    "href": "Collection.html#export-your-data",
+    "title": "How-to",
+    "section": "Export your data",
+    "text": "Export your data"
   }
 ]
