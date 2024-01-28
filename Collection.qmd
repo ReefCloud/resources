@@ -28,22 +28,22 @@ title: "How-to"
 
 ## Add and Manage Survey images
 
-{{< video https://www.youtube.com/watch?v=Gfz3Ev9AGF8&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=6>}}
+{{< video https://www.youtube.com/watch?v=Gfz3Ev9AGF8&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=6 >}}
 
 ## View, Enable, Disable and Delete Images
 
-{{< video https://www.youtube.com/watch?v=sA68AmrmaZI&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=7>}}
+{{< video https://www.youtube.com/watch?v=sA68AmrmaZI&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=7 >}}
 
 # Analyse
 
 ## Classify Images
 
-{{< video https://www.youtube.com/watch?v=toK-b7fMhXc&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=8>}}
+{{< video https://www.youtube.com/watch?v=toK-b7fMhXc&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=8 >}}
 
 ## Interpret AI results
 
-{{< video https://www.youtube.com/watch?v=BI5inlBBUe0&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=9>}}
+{{< video https://www.youtube.com/watch?v=BI5inlBBUe0&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=9 >}}
 
 ## Export your data
 
-{{< video https://www.youtube.com/watch?v=kdiypopB4T8&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=10>}}
+{{< video https://www.youtube.com/watch?v=kdiypopB4T8&list=PLdMemWlcEMFvD3GWs3iuxtnhJ9HBa6Kys&index=10 >}}
