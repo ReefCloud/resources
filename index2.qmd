@@ -1,0 +1,129 @@
+---
+title: "Resources"
+format: 
+    html:
+      css: "resources/styles.css"
+      page-layout: full
+---
+
+::: content-wrapper
+
+::: news-card
+::: news-card__text-wrapper
+::: news-card__title
+# Overview
+:::
+::: news-card__details-wrapper
+::: news-card__excerpt
+A methodological guide you on designing your monitoring program and collecting phototransects to analyse in ReefCloud
+:::
+::: news-card__read-more
+[Read more](How-to.qmd)
+:::
+:::
+:::
+::: news-card__image
+![](img/ReefCloud_Icon_FC.png)
+:::
+:::
+
+
+::: news-card
+::: news-card__text-wrapper
+::: news-card__title
+# Collecting photos
+:::
+::: news-card__details-wrapper
+::: news-card__excerpt
+A methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud
+:::
+::: news-card__read-more
+[Read more](How-to.qmd)
+:::
+:::
+:::
+::: news-card__image
+![](img/Fairfax_v24%20018.jpg)
+:::
+:::
+
+::: news-card
+::: news-card__image
+![](img/19-138_Reef_v25%20669.jpg)
+:::
+::: news-card__text-wrapper
+::: news-card__title
+# Using ReefCloud
+:::
+::: news-card__details-wrapper
+::: news-card__excerpt
+A step-by-step guide to using ReefCloud for analysing coral reef monitoring data
+:::
+::: news-card__read-more
+Read more
+:::
+:::
+:::
+:::
+
+::: news-card
+::: news-card__text-wrapper
+::: news-card__title
+# Video Resources
+:::
+::: news-card__details-wrapper
+::: news-card__excerpt
+A collection of short videos to guide you on how to perform specific tasks in ReefCloud
+:::
+::: news-card__read-more
+[Read more](How-to.qmd)
+:::
+:::
+:::
+::: news-card__image
+![](img/IMG_0131.jpg)
+:::
+:::
+
+
+::: news-card
+::: news-card__image
+![](img/IMG_2250.jpg)
+:::
+::: news-card__text-wrapper
+::: news-card__title
+# FAQs
+:::
+::: news-card__details-wrapper
+::: news-card__excerpt
+Frequently Asked Questions about ReefCloud
+:::
+::: news-card__read-more
+[Read more](How-to.qmd)
+:::
+:::
+:::
+:::
+
+
+::: news-card
+::: news-card__image
+![](https://www.r-project.org/logo/Rlogo.svg)
+:::
+::: news-card__text-wrapper
+::: news-card__title
+# Data Analysis in R
+:::
+::: news-card__details-wrapper
+::: news-card__excerpt
+Tutorials and code examples to guide your data anylises in R
+:::
+::: news-card__read-more
+[Read more](Analyses.qmd)
+:::
+:::
+:::
+:::
+
+:::
+

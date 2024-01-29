@@ -4,25 +4,22 @@ about:
   id: me
   template: trestles
   image: img/ReefCloud_Icon_FC.png
+format: 
+  html:
+    css: resources/styles.css
 ---
 
-:::{#me}
-
+::: {#me}
 This site is a constantly evolving repository where you can find a range of resources to maximise your experience with [ReefCloud](https://reefcloud.ai). This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.
 
 For more documentation about how to use ReefCloud, check out our [User Documentation](https://docs.reefcloud.ai/).
 
-## Here you can find: 
-- How-to videos
-- R code examples
-- Templates
-- Presentations
+## Here you can find:
 
-
-
-
-
+-   How-to videos
+-   R code examples
+-   Templates
+-   Presentations
 :::
- 
-{{< video https://www.youtube.com/watch?v=LhGzoPzk8qs >}}
 
+{{< video https://www.youtube.com/watch?v=LhGzoPzk8qs >}}
