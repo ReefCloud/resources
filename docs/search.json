@@ -16,9 +16,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About this page",
+    "title": "Resources",
     "section": "",
-    "text": "This site is a constantly evolving repository where you can find a range of resources to maximise your experience with ReefCloud. This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.\nFor more documentation about how to use ReefCloud, check out our User Documentation.\n\n\n\nHow-to videos\nR code examples\nTemplates\nPresentations"
+    "text": "Overview\n\n\n\nA brief video introduction to walk you through the ReefCloud features from start to end\n\n\nRead more\n\n\n\n\n\n\n\n\nCollecting photos\n\n\n\nA methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing ReefCloud\n\n\n\nA step-by-step guide to using ReefCloud for analysing coral reef monitoring data\n\n\nRead More.\n\n\n\n\n\n\n\nVideo Resources\n\n\n\nA collection of short videos to guide you on how to perform specific tasks in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAQs\n\n\n\nFrequently Asked Questions about ReefCloud\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\nData Analysis in R\n\n\n\nTutorials and code snippets to guide you, step-by-step, on monitoring data analyses using R language.\n\n\nRead more"
   },
   {
     "objectID": "index.html#here-you-can-find",
@@ -277,7 +277,7 @@
     "href": "index2.html",
     "title": "Resources",
     "section": "",
-    "text": "Overview\n\n\n\nA methodological guide you on designing your monitoring program and collecting phototransects to analyse in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\nCollecting photos\n\n\n\nA methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing ReefCloud\n\n\n\nA step-by-step guide to using ReefCloud for analysing coral reef monitoring data\n\n\nRead more\n\n\n\n\n\n\n\nVideo Resources\n\n\n\nA collection of short videos to guide you on how to perform specific tasks in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAQs\n\n\n\nFrequently Asked Questions about ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\nData Analysis in R\n\n\n\nTutorials and code examples to guide your data anylises in R\n\n\nRead more"
+    "text": "Overview\n\n\n\nA methodological guide you on designing your monitoring program and collecting phototransects to analyse in ReefCloud [ Comming soon!]\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\nCollecting photos\n\n\n\nA methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing ReefCloud\n\n\n\nA step-by-step guide to using ReefCloud for analysing coral reef monitoring data\n\n\nRead More.\n\n\n\n\n\n\n\nVideo Resources\n\n\n\nA collection of short videos to guide you on how to perform specific tasks in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAQs\n\n\n\nFrequently Asked Questions about ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\nData Analysis in R\n\n\n\nTutorials and code examples to guide your data anylises in R\n\n\nRead more"
   },
   {
     "objectID": "docs/docs/docs/gitbook/planning-your-surveys.html",
@@ -362,5 +362,47 @@
     "title": "Site selection",
     "section": "",
     "text": "Site selection\nThe sites selection process is divided into two parts defined by the questions such as:\n\nIs this the first time we are surveys these reefs?\nIf no, who has existing data and sites coordinates?\nAre we surveying the same sites or do we need new sites or a combination to meet collect the types of data required.\nWhat is the depth range targeted for this survey?\nHow many days do we need to survey all sites?\nIf the weather is not favourable or there are some unforeseen circumstances, how many sites should be targeted to complete within the timeframe?\nIf such conditions occur, what is the trade-off between reducing the number of sites verse number of transect?\n\nExisting monitoring sites\nWhile working with existing monitoring sites it is recommended that:\n\nUse the coordinates to plot the sites on a map (you can use the mapping options in section 5.2.1).\nIdentify sites that are absolutely needed and sites that can be optional;\nIs there a need to conduct surveys at all existing monitoring sites or do we need some new sites to answer the question(s);\nRank the existing sites from high to low priority; and\nIf needed, add the new sites coordinates.\nOnce the sites have been prioritised, the coordinates for the sites (waypoints) can be extracted and entered into a handheld GPS to locate sites during surveys (if not in the GPS).\n\nNote: Local weather conditions, the number of days allocated for surveys and the level of comfort and expertise in the team are also important to consider for logistics and to safely conduct surveys.\n\nSelecting new sites.\nWhen working in areas never surveyed before or have no record of any data collection, the steps include:\n\nGathering as much information as possible about the areas from locals and online sources. The types if information that are required for planning are dangerous animals, currents and currents, accessibility to sites, availability of boats, distance from mainland, boat guide with a good understanding of local conditions.\nReviewing/exploring maps with local knowledge to identify areas that you may want to survey. If possible, use a map with more detailed features such as Allen Coral Atlas (allencoralatlas.org) to understand the diversity of the reef system. This will assist with the site selection process by providing guidance towards target habitats, the estimated size and accessibility of reefs and the likelihood of finding the target habitats in the areas.\nOnce the habitats have been identified, plot the sites on the map and rank them from high to low priority.\nThe number of days allocated for surveys and the weather conditions play an important role in sites prioritisation process.\nOnce the sites have been prioritised, the coordinates for the sites (waypoints) can be extracted and entered into a handheld GPS to locate sites during surveys.\n\n![A diagram of a land layer\nDescription automatically generated with medium confidence](../../.gitbook/assets/2.png)\nNote: The site selected for monitoring should be representative of the area of interest and contain the same habitats so comparable data can be gathered from different sites (2004 Hill and Wilkson)"
+  },
+  {
+    "objectID": "Vignette_generate_CM.html",
+    "href": "Vignette_generate_CM.html",
+    "title": "Calculate Confusion mAtrix from ReefCloud’s export",
+    "section": "",
+    "text": "Import Data\n\nlibrary(caret)\n\nWarning: package 'caret' was built under R version 4.2.3\n\n\nLoading required package: ggplot2\n\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\n\nLoading required package: lattice\n\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.2.3\n\n\nWarning: package 'tidyr' was built under R version 4.2.3\n\n\nWarning: package 'readr' was built under R version 4.2.3\n\n\nWarning: package 'purrr' was built under R version 4.2.3\n\n\nWarning: package 'dplyr' was built under R version 4.2.3\n\n\nWarning: package 'stringr' was built under R version 4.2.3\n\n\nWarning: package 'forcats' was built under R version 4.2.3\n\n\nWarning: package 'lubridate' was built under R version 4.2.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ lubridate 1.9.3     ✔ tibble    3.2.1\n✔ purrr     1.0.1     ✔ tidyr     1.3.0\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n✖ purrr::lift()   masks caret::lift()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndf&lt;-read.csv2(\"C://Users/mgonzale/Downloads/reefcloud-point-classification-nha-trang-vietnam-coral-reef-monitoring-2024-2024-04-10.csv\", sep=\",\")%&gt;%\n  filter(point_human_classification!=\"\")\n\nCalculate the Confusion Matrix"
+  },
+  {
+    "objectID": "Vignette_generate_CM.html#set-up",
+    "href": "Vignette_generate_CM.html#set-up",
+    "title": "Calculate Confusion mAtrix from ReefCloud’s export",
+    "section": "",
+    "text": "Import Data\n\nlibrary(caret)\n\nWarning: package 'caret' was built under R version 4.2.3\n\n\nLoading required package: ggplot2\n\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\n\nLoading required package: lattice\n\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.2.3\n\n\nWarning: package 'tidyr' was built under R version 4.2.3\n\n\nWarning: package 'readr' was built under R version 4.2.3\n\n\nWarning: package 'purrr' was built under R version 4.2.3\n\n\nWarning: package 'dplyr' was built under R version 4.2.3\n\n\nWarning: package 'stringr' was built under R version 4.2.3\n\n\nWarning: package 'forcats' was built under R version 4.2.3\n\n\nWarning: package 'lubridate' was built under R version 4.2.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ lubridate 1.9.3     ✔ tibble    3.2.1\n✔ purrr     1.0.1     ✔ tidyr     1.3.0\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n✖ purrr::lift()   masks caret::lift()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndf&lt;-read.csv2(\"C://Users/mgonzale/Downloads/reefcloud-point-classification-nha-trang-vietnam-coral-reef-monitoring-2024-2024-04-10.csv\", sep=\",\")%&gt;%\n  filter(point_human_classification!=\"\")\n\nCalculate the Confusion Matrix"
+  },
+  {
+    "objectID": "Vignette_generate_CM.html#plot",
+    "href": "Vignette_generate_CM.html#plot",
+    "title": "Calculate Confusion mAtrix from ReefCloud’s export",
+    "section": "Plot",
+    "text": "Plot\n\nheatmap(cm.1$table, \n        main = \"Confusion Matrix\",\n        xlab = \"Predicted\",\n        ylab = \"Actual\",\n        col = heat.colors(10),\n        scale = \"column\",\n        margins = c(5, 5))"
+  },
+  {
+    "objectID": "index_old.html",
+    "href": "index_old.html",
+    "title": "About this page",
+    "section": "",
+    "text": "This site is a constantly evolving repository where you can find a range of resources to maximise your experience with ReefCloud. This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.\nFor more documentation about how to use ReefCloud, check out our User Documentation.\n\n\n\nHow-to videos\nR code examples\nTemplates\nPresentations"
+  },
+  {
+    "objectID": "index_old.html#here-you-can-find",
+    "href": "index_old.html#here-you-can-find",
+    "title": "About this page",
+    "section": "",
+    "text": "How-to videos\nR code examples\nTemplates\nPresentations"
+  },
+  {
+    "objectID": "ReefCloud_Overview.html",
+    "href": "ReefCloud_Overview.html",
+    "title": "About ReefCloud",
+    "section": "",
+    "text": "ReefCloud is an open-access data platform designed to quickly and efficiently collate and analyse monitoring data to automate report on the status and trends of coral reefs worldwide.\nThis sites contains a constantly evolving repository with a range of resources to maximise your experience with ReefCloud. This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.\nAs a way of introduction, the video below walk you through ReefCloud and its main features, while pointing to training resources.\nPlease reach out to us at support@reefcloud.ai if you have any questions or suggestions."
   }
 ]

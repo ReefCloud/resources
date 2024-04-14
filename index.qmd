@@ -1,25 +1,149 @@
 ---
-title: "About this page"
-about:
-  id: me
-  template: trestles
-  image: img/ReefCloud_Icon_FC.png
+title: "Resources"
 format: 
-  html:
-    css: resources/styles.css
+    html:
+      css: "resources/styles.css"
+      page-layout: full
 ---
 
-::: {#me}
-This site is a constantly evolving repository where you can find a range of resources to maximise your experience with [ReefCloud](https://reefcloud.ai). This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.
+::: content-wrapper
 
-For more documentation about how to use ReefCloud, check out our [User Documentation](https://docs.reefcloud.ai/).
 
-## Here you can find:
+::: news-card
 
--   How-to videos
--   R code examples
--   Templates
--   Presentations
+::: news-card__image
+![](img/ReefCloud_Icon_FC.png) 
+
+::: news-card__text-wrapper 
+
+::: news-card__title 
+# Overview
 :::
 
-{{< video https://www.youtube.com/watch?v=LhGzoPzk8qs >}}
+::: news-card__details-wrapper
+::: news-card__excerpt
+A brief video introduction to walk you through the ReefCloud features from start to end
+:::
+::: news-card__read-more
+[Read more](ReefCloud_Overview.qmd)
+:::
+:::
+
+
+:::
+:::
+:::
+
+
+
+::: news-card
+::: news-card__text-wrapper
+::: news-card__title
+# Collecting photos
+:::
+
+::: news-card__details-wrapper
+::: news-card__excerpt
+A methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud
+:::
+
+::: news-card__read-more
+[Coming Soon]()
+:::
+:::
+:::
+
+::: news-card__image
+![](img/Fairfax_v24%20018.jpg)
+:::
+:::
+
+::: news-card
+::: news-card__image
+![](img/19-138_Reef_v25%20669.jpg)
+:::
+
+::: news-card__text-wrapper
+::: news-card__title
+# Using ReefCloud
+:::
+
+::: news-card__details-wrapper
+::: news-card__excerpt
+A step-by-step guide to using ReefCloud for analysing coral reef monitoring data
+:::
+
+::: news-card__read-more
+<a href="pdfs/ReefCloud Manual - SHORT VERSION.pdf">Read More.</a>
+:::
+:::
+:::
+:::
+
+::: news-card
+::: news-card__text-wrapper
+::: news-card__title
+# Video Resources
+:::
+
+::: news-card__details-wrapper
+::: news-card__excerpt
+A collection of short videos to guide you on how to perform specific tasks in ReefCloud
+:::
+
+::: news-card__read-more
+[Read more](How-to.qmd)
+:::
+:::
+:::
+
+::: news-card__image
+![](img/IMG_0131.jpg)
+:::
+:::
+
+::: news-card
+::: news-card__image
+![](img/IMG_2250.jpg)
+:::
+
+::: news-card__text-wrapper
+::: news-card__title
+# FAQs
+:::
+
+::: news-card__details-wrapper
+::: news-card__excerpt
+Frequently Asked Questions about ReefCloud
+:::
+
+::: news-card__read-more
+[Coming Soon]()
+:::
+:::
+:::
+:::
+
+::: news-card
+::: news-card__image
+![](https://www.r-project.org/logo/Rlogo.svg)
+:::
+
+::: news-card__text-wrapper
+::: news-card__title
+# Data Analysis in R
+:::
+
+::: news-card__details-wrapper
+::: news-card__excerpt
+Tutorials and code snippets to guide you, step-by-step, on monitoring data analyses using R language.
+:::
+
+::: news-card__read-more
+[Read more](Analyses.qmd)
+:::
+:::
+:::
+:::
+
+:::

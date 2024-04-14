@@ -1,0 +1,43 @@
+---
+title: "Calculate Confusion mAtrix from ReefCloud's export"
+author: "Manuel Gonzalez-Rivero"
+format: html
+---
+
+## Set up
+
+Import Data
+
+```{r}
+library(caret)
+library(tidyverse)
+df<-read.csv2("C://Users/mgonzale/Downloads/reefcloud-point-classification-nha-trang-vietnam-coral-reef-monitoring-2024-2024-04-10.csv", sep=",")%>%
+  filter(point_human_classification!="")
+```
+
+Calculate the Confusion Matrix
+```{r}
+#| echo: false
+
+lvs=unique(df$point_human_classification)
+human<-factor(df$point_human_classification, levels=rev(lvs))
+
+machine<-factor(df$point_machine_classification, levels=rev(lvs))
+
+                 
+
+cm.1<-caret::confusionMatrix(machine,human)
+```
+
+## Plot
+
+```{r}
+heatmap(cm.1$table, 
+        main = "Confusion Matrix",
+        xlab = "Predicted",
+        ylab = "Actual",
+        col = heat.colors(10),
+        scale = "column",
+        margins = c(5, 5))
+```
+

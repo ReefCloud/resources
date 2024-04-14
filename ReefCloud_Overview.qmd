@@ -1,0 +1,23 @@
+---
+title: "About ReefCloud"
+about:
+  id: me
+  template: trestles
+  image: img/ReefCloud_Icon_FC.png
+format: 
+  html:
+    css: resources/styles.css
+---
+
+::: {#me}
+
+ReefCloud is an open-access data platform designed to quickly and efficiently collate and analyse monitoring data to automate report on the status and trends of coral reefs worldwide.
+
+This sites contains a constantly evolving repository with a range of resources to maximise your experience with [ReefCloud](https://reefcloud.ai). This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.
+
+As a way of introduction, the video below walk you through ReefCloud and its main features, while pointing to training resources. 
+
+Please reach out to us at <a href="support@reefcloud.ai">support@reefcloud.ai</a> if you have any questions or suggestions. 
+:::
+
+{{< video https://www.youtube.com/watch?v=jMz0VT-vuh0 title="ReefCloud Overview" start="116" aspect-ratio="21x9" >}}

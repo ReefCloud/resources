@@ -6,12 +6,6 @@ website:
   title: "Resources"
   navbar:
     logo: "https://reefcloud.ai/static/media/coreLogoName.04eb209b6a92259208f9d8edb621bc4c.svg"
-    left:
-      - href: index2.qmd
-        text: Home
-      - How-to.qmd
-      - Analyses.qmd
-      - Reporting.qmd
     tools:
       - icon: twitter
         href: https://twitter.com/
