@@ -11,7 +11,8 @@ Import Data
 ```{r}
 library(caret)
 library(tidyverse)
-df<-read.csv2("C://Users/mgonzale/Downloads/reefcloud-point-classification-nha-trang-vietnam-coral-reef-monitoring-2024-2024-04-10.csv", sep=",")%>%
+fn<-"C:\\Users\\mgonzale\\OneDrive - Australian Institute of Marine Science\\projects\\ReefCloud\\Planning\ValidationAI\\Inference\\reefcloud-point-classification-Vietnam-Coral-Reef-Monitoring-2024-05-29.csv"
+df<-read.csv2(fn, sep=",")%>%
   filter(point_human_classification!="")
 ```
 
