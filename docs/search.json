@@ -277,7 +277,7 @@
     "href": "index2.html",
     "title": "Resources",
     "section": "",
-    "text": "Overview\n\n\n\nA brief video introduction to walk you through the ReefCloud features from start to end\n\n\nRead more\n\n\n\n\n\n\n\n\nCollecting photos\n\n\n\nA methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing ReefCloud\n\n\n\nA step-by-step guide to using ReefCloud for analysing coral reef monitoring data\n\n\nRead More.\n\n\n\n\n\n\n\nVideo Resources\n\n\n\nA collection of short videos to guide you on how to perform specific tasks in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAQs\n\n\n\nFrequently Asked Questions about ReefCloud\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\nData Analysis in R\n\n\n\nTutorials and code snippets to guide you, step-by-step, on monitoring data analyses using R language.\n\n\nRead more"
+    "text": "Overview\n\n\n\nA brief video introduction to walk you through the ReefCloud features from start to end\n\n\nRead more\n\n\n\n\n\n\n\n\nCollecting photos\n\n\n\nA methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing ReefCloud\n\n\n\nA step-by-step guide to using ReefCloud for analysing coral reef monitoring data\n\n\nRead more\n\n\n\n\n\n\n\nVideo Resources\n\n\n\nA collection of short videos to guide you on how to perform specific tasks in ReefCloud\n\n\nRead more\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAQs\n\n\n\nFrequently Asked Questions about ReefCloud\n\n\nComing Soon\n\n\n\n\n\n\n\n\n\n\nData Analysis in R\n\n\n\nTutorials and code snippets to guide you, step-by-step, on monitoring data analyses using R language.\n\n\nRead more"
   },
   {
     "objectID": "docs/docs/docs/gitbook/planning-your-surveys.html",
@@ -404,5 +404,89 @@
     "title": "About ReefCloud",
     "section": "",
     "text": "ReefCloud is an open-access data platform designed to quickly and efficiently collate and analyse monitoring data to automate report on the status and trends of coral reefs worldwide.\nThis sites contains a constantly evolving repository with a range of resources to maximise your experience with ReefCloud. This includes supporting documents, materials and coding resources for benthic coral reef monitoring and reporting using ReefCloud as the engine room.\nAs a way of introduction, the video below walk you through ReefCloud and its main features, while pointing to training resources.\nPlease reach out to us at support@reefcloud.ai if you have any questions or suggestions."
+  },
+  {
+    "objectID": "Use-RC.html",
+    "href": "Use-RC.html",
+    "title": "Using ReefCloud",
+    "section": "",
+    "text": "Here, you will find a series of resources that will help you make the most of ReefCloud. Use the menu bar on the right or the searching function at the top to explore the topics we have prepared for you.\nIf you want additional topics added to this list, please let us know at reefcloud@aims.gov.au."
+  },
+  {
+    "objectID": "Use-RC.html#create-a-user-account",
+    "href": "Use-RC.html#create-a-user-account",
+    "title": "How-to",
+    "section": "Create a User Account",
+    "text": "Create a User Account"
+  },
+  {
+    "objectID": "Use-RC.html#create-a-new-project",
+    "href": "Use-RC.html#create-a-new-project",
+    "title": "How-to",
+    "section": "Create a New Project",
+    "text": "Create a New Project"
+  },
+  {
+    "objectID": "Use-RC.html#add-users-and-manage-project-permissions",
+    "href": "Use-RC.html#add-users-and-manage-project-permissions",
+    "title": "How-to",
+    "section": "Add Users and Manage Project Permissions",
+    "text": "Add Users and Manage Project Permissions"
+  },
+  {
+    "objectID": "Use-RC.html#manage-and-map-labelsets-taxonomy",
+    "href": "Use-RC.html#manage-and-map-labelsets-taxonomy",
+    "title": "How-to",
+    "section": "Manage and Map Labelsets (Taxonomy)",
+    "text": "Manage and Map Labelsets (Taxonomy)"
+  },
+  {
+    "objectID": "Use-RC.html#add-and-manage-sites",
+    "href": "Use-RC.html#add-and-manage-sites",
+    "title": "How-to",
+    "section": "Add and Manage Sites",
+    "text": "Add and Manage Sites"
+  },
+  {
+    "objectID": "Use-RC.html#add-and-manage-survey-images",
+    "href": "Use-RC.html#add-and-manage-survey-images",
+    "title": "How-to",
+    "section": "Add and Manage Survey images",
+    "text": "Add and Manage Survey images"
+  },
+  {
+    "objectID": "Use-RC.html#view-enable-disable-and-delete-images",
+    "href": "Use-RC.html#view-enable-disable-and-delete-images",
+    "title": "How-to",
+    "section": "View, Enable, Disable, and Delete Images",
+    "text": "View, Enable, Disable, and Delete Images"
+  },
+  {
+    "objectID": "Use-RC.html#classify-images",
+    "href": "Use-RC.html#classify-images",
+    "title": "How-to",
+    "section": "Classify Images",
+    "text": "Classify Images"
+  },
+  {
+    "objectID": "Use-RC.html#interpret-ai-results",
+    "href": "Use-RC.html#interpret-ai-results",
+    "title": "How-to",
+    "section": "Interpret AI results",
+    "text": "Interpret AI results"
+  },
+  {
+    "objectID": "Use-RC.html#export-your-data",
+    "href": "Use-RC.html#export-your-data",
+    "title": "How-to",
+    "section": "Export your data",
+    "text": "Export your data"
+  },
+  {
+    "objectID": "Use-RC.html#user-manuals",
+    "href": "Use-RC.html#user-manuals",
+    "title": "Using ReefCloud",
+    "section": "User Manuals",
+    "text": "User Manuals\n\nBrief Introductory Manual\nDetailed User Manual"
   }
 ]

@@ -74,7 +74,7 @@ A step-by-step guide to using ReefCloud for analysing coral reef monitoring data
 :::
 
 ::: news-card__read-more
-<a href="pdfs/ReefCloud Manual - SHORT VERSION.pdf">Read More.</a>
+[Read more](Use-RC.qmd)
 :::
 :::
 :::

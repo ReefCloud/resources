@@ -1,0 +1,30 @@
+---
+title: "Using ReefCloud"
+---
+
+Here, you will find a series of resources that will help you make the most of ReefCloud. Use the menu bar on the right or the searching function at the top to explore the topics we have prepared for you.
+
+If you want additional topics added to this list, please let us know at reefcloud\@aims.gov.au.
+
+# 1. ReefCloud Manuals
+
+## User Manuals
+
+- <a href="pdfs/ReefCloud Manual - SHORT VERSION.pdf">Brief Introductory Manual</a>
+- [Detailed User Manual](https://docs.reefcloud.ai/)
+
+# 2. Taxonomy resources
+
+The links below provide access to useful resources to help you identifying coral reef benthic taxa from images.
+
+- <a href="pdfs/Common_HardCoral_genera_guide.pdf">Introduction to Functional Groups</a>
+- <a href="pdfs/Common_HardCoral_genera_guide.pdf">Common Hard Coral genera</a>
+- [Corals of the World](http://www.coralsoftheworld.org/page/home/)
+
+# 3. Other Useful Resources
+
+-[Coral Bleaching Survey ToolKit](https://coral.org/en/coral-bleaching/)
+
+
+
+
