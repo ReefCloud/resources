@@ -118,7 +118,7 @@ Frequently Asked Questions about ReefCloud
 :::
 
 ::: news-card__read-more
-[Coming Soon]()
+[Read more](https://docs.reefcloud.ai/frequently-asked-questions/machine-learning){target="_blank"}
 :::
 :::
 :::
