@@ -150,14 +150,18 @@ library(leafem)
 #URL for the ReefCloud GeoServer
 rc_geo<-"https://geoserver.apps.aims.gov.au/reefcloud/ows"
 # Establish a connection
-rc_client <- WFSClient$new(rc_geo, 
-                           serviceVersion = "1.0.0")
+rc_client <- WFSClient$new(
+    url = rc_geo,
+    serviceVersion = "1.0.0",
+    logger = "INFO",
+    headers = c("User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36")
+  )
 #List of features
 rc_client$getFeatureTypes(pretty = TRUE)
 
 ```
 
-*Another to access this information is*
+*To access the layers*
 
 ```{r}
 
