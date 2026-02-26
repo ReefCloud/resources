@@ -17,8 +17,9 @@ If you want additional topics added to this list, please let us know at reefclou
 
 The links below provide access to useful resources to help you identifying coral reef benthic taxa from images.
 
-- <a href="pdfs/Common_HardCoral_genera_guide.pdf">Introduction to Functional Groups</a>
-- <a href="pdfs/Common_HardCoral_genera_guide.pdf">Common Hard Coral genera</a>
+- <a href="pdfs/2025_Benthic_Taxonomy_Basic_labelset_tier1_compressed.pdf">Benthic Functional Groups - ReefCloud Tier 1 Basic Labelset Taxonomy Guide</a>
+- <a href="pdfs/2025_Benthic_Taxonomy_Advance_labelset_tier3_compressed.pdf">Benthic Taxonomy Groups - ReefCloud Tier 3 Advance Labelset Taxonomy Guide</a>
+- <a href="pdfs/Common_HardCoral_genera_guide.pdf">Self-guided Hard Coral Genera Walkthrough</a>
 - [Corals of the World](http://www.coralsoftheworld.org/page/home/)
 
 # 3. Other Useful Resources
