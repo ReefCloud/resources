@@ -8,15 +8,13 @@ format:
 
 ::: content-wrapper
 
-
 ::: news-card
-
 ::: news-card__image
-![](img/ReefCloud_Icon_FC.png) 
+![](img/ReefCloud_Icon_FC.png)
+:::
 
-::: news-card__text-wrapper 
-
-::: news-card__title 
+::: news-card__text-wrapper
+::: news-card__title
 # Overview
 :::
 
@@ -24,19 +22,19 @@ format:
 ::: news-card__excerpt
 A brief video introduction to walk you through the ReefCloud features from start to end
 :::
+
 ::: news-card__read-more
 [Read more](ReefCloud_Overview.qmd)
 :::
 :::
-
-
 :::
 :::
-:::
-
-
 
 ::: news-card
+::: news-card__image
+![](img/Fairfax_v24%20018.jpg)
+:::
+
 ::: news-card__text-wrapper
 ::: news-card__title
 # Collecting photos
@@ -51,10 +49,6 @@ A methodological guide you on designing your monitoring program and collecting d
 [Coming Soon]()
 :::
 :::
-:::
-
-::: news-card__image
-![](img/Fairfax_v24%20018.jpg)
 :::
 :::
 
@@ -81,6 +75,10 @@ A step-by-step guide to using ReefCloud for analysing coral reef monitoring data
 :::
 
 ::: news-card
+::: news-card__image
+![](img/IMG_0131.jpg)
+:::
+
 ::: news-card__text-wrapper
 ::: news-card__title
 # Video Resources
@@ -95,10 +93,6 @@ A collection of short videos to guide you on how to perform specific tasks in Re
 [Read more](How-to.qmd)
 :::
 :::
-:::
-
-::: news-card__image
-![](img/IMG_0131.jpg)
 :::
 :::
 
