@@ -16,6 +16,9 @@ This page collated a series of vignettes and tutorials that illustrate brief exa
 ## Reproducible research
 - [Introduction to Version Control](https://reefcloud.github.io/workshops/10_git.html)
 
-# Accessing environmental data
+## Accessing environmental data
 - [Access environmental data from ReefCloud](https://reefcloud.github.io/resources/Vignette_extract_RC_covariates.html)
 - [Access habitat classificaition from the Allen Coral Atlas](https://reefcloud.github.io/resources/Vignette_extract_ACA_habitats.html)
+
+## ReefCloud API and functions to access public dashboard data
+ - Coming soon

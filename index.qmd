@@ -20,7 +20,7 @@ format:
 
 ::: news-card__details-wrapper
 ::: news-card__excerpt
-A brief video introduction to walk you through the ReefCloud features from start to end
+A brief video introduction to ReefCloud
 :::
 
 ::: news-card__read-more
@@ -32,7 +32,7 @@ A brief video introduction to walk you through the ReefCloud features from start
 
 ::: news-card
 ::: news-card__image
-![](img/Fairfax_v24%20018.jpg)
+![](img/Fairfax_v24 018.jpg)
 :::
 
 ::: news-card__text-wrapper
@@ -42,7 +42,7 @@ A brief video introduction to walk you through the ReefCloud features from start
 
 ::: news-card__details-wrapper
 ::: news-card__excerpt
-A methodological guide you on designing your monitoring program and collecting data to analyse in ReefCloud
+A methodological guide on designing your monitoring program and collecting data to analyse in ReefCloud
 :::
 
 ::: news-card__read-more
@@ -54,7 +54,7 @@ A methodological guide you on designing your monitoring program and collecting d
 
 ::: news-card
 ::: news-card__image
-![](img/19-138_Reef_v25%20669.jpg)
+![](img/19-138_Reef_v25 669.jpg)
 :::
 
 ::: news-card__text-wrapper
@@ -64,7 +64,7 @@ A methodological guide you on designing your monitoring program and collecting d
 
 ::: news-card__details-wrapper
 ::: news-card__excerpt
-A step-by-step guide to using ReefCloud for analysing coral reef monitoring data
+A series of resources to help you with using ReefCloud
 :::
 
 ::: news-card__read-more
@@ -112,7 +112,7 @@ Frequently Asked Questions about ReefCloud
 :::
 
 ::: news-card__read-more
-[Read more](https://docs.reefcloud.ai/frequently-asked-questions/machine-learning){target="_blank"}
+[Read more](https://docs.reefcloud.ai/frequently-asked-questions/data-collection){target="_blank"}
 :::
 :::
 :::

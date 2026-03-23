@@ -10,21 +10,29 @@ If you want additional topics added to this list, please let us know at reefclou
 
 ## User Manuals
 
+User manuals for ReefCloud
+
 - <a href="pdfs/ReefCloud Manual - SHORT VERSION.pdf">Brief Introductory Manual</a>
 - [Detailed User Manual](https://docs.reefcloud.ai/)
 
 # 2. Taxonomy resources
 
-The links below provide access to useful resources to help you identifying coral reef benthic taxa from images.
+The links below provide access to useful resources for you to identify coral reef benthic taxa from images.
 
-- <a href="pdfs/2025_Benthic_Taxonomy_Basic_labelset_tier1_compressed.pdf">Benthic Functional Groups - ReefCloud Tier 1 Basic Labelset Taxonomy Guide</a>
-- <a href="pdfs/2025_Benthic_Taxonomy_Advance_labelset_tier3_compressed.pdf">Benthic Taxonomy Groups - ReefCloud Tier 3 Advance Labelset Taxonomy Guide</a>
-- <a href="pdfs/Common_HardCoral_genera_guide.pdf">Self-guided Hard Coral Genera Walkthrough</a>
+- <a href="pdfs/2025_Benthic_Taxonomy_Basic_labelset_tier1_compressed.pdf">A guide to Benthic Functional Groups - ReefCloud Tier 1 Basic Labelset Taxonomy</a>
+- <a href="pdfs/2025_Benthic_Taxonomy_Advance_labelset_tier3_compressed.pdf">A guide to Benthic Taxonomy Groups - ReefCloud Tier 3 Advance Labelset Taxonomy</a>
+- <a href="pdfs/Common_HardCoral_genera_guide.pdf">A Self-guided Hard Coral Genera Walkthrough</a>
 - [Corals of the World](http://www.coralsoftheworld.org/page/home/)
 
-# 3. Other Useful Resources
+# 3. Technical resources
 
--[Coral Bleaching Survey ToolKit](https://coral.org/en/coral-bleaching/)
+The links below provide technical resources that explain changes in the ReefCloud system and their impact for analyses.
+
+- [ReefCloud Feature Vector Extraction Changes]
+
+# 4. Other Useful Resources
+
+- [Coral Bleaching Survey ToolKit](https://coral.org/en/coral-bleaching/)
 
 
 
