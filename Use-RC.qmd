@@ -22,18 +22,22 @@ The links below provide access to useful resources for you to identify coral ree
 - <a href="pdfs/2025_Benthic_Taxonomy_Basic_labelset_tier1_compressed.pdf">A guide to Benthic Functional Groups - ReefCloud Tier 1 Basic Labelset Taxonomy</a>
 - <a href="pdfs/2025_Benthic_Taxonomy_Advance_labelset_tier3_compressed.pdf">A guide to Benthic Taxonomy Groups - ReefCloud Tier 3 Advance Labelset Taxonomy</a>
 - <a href="pdfs/Common_HardCoral_genera_guide.pdf">A Self-guided Hard Coral Genera Walkthrough</a>
+
+The following links are pages that provide reference for the names and species listed in the above documents and in ReefCloud. 
+
+- [World Register of Marine Species](https://www.marinespecies.org/) 
 - [Corals of the World](http://www.coralsoftheworld.org/page/home/)
 
 # 3. Technical resources
 
 The links below provide technical resources that explain changes in the ReefCloud system and their impact for analyses.
 
-- [ReefCloud Feature Vector Extraction Changes]
+- [ReefCloud Feature Vector Extraction Changes](https://reefcloud.github.io/resources/docs/Vignette_feature_vector_extraction_report.html)
 
 # 4. Other Useful Resources
 
 - [Coral Bleaching Survey ToolKit](https://coral.org/en/coral-bleaching/)
-
-
+- [IUCN Red List of Threatened Species](https://www.iucnredlist.org/) 
+- [Global Coral Reef Monitoring Network](https://gcrmn.net/)
 
 
