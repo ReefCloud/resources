@@ -32,7 +32,7 @@ The following links are pages that provide reference for the names and species l
 
 The links below provide technical resources that explain changes in the ReefCloud system and their impact for analyses.
 
-- [ReefCloud Feature Vector Extraction Changes](https://reefcloud.github.io/resources/docs/Vignette_feature_vector_extraction_report.html)
+- [ReefCloud Feature Vector Extraction Changes](https://reefcloud.github.io/resources/Vignette_feature_vector_extraction_report.html)
 
 # 4. Other Useful Resources
 
