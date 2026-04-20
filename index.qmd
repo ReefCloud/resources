@@ -7,7 +7,6 @@ format:
 ---
 
 ::: content-wrapper
-
 ::: news-card
 ::: news-card__image
 ![](img/ReefCloud_Icon_FC.png)
@@ -32,7 +31,7 @@ A brief video introduction to ReefCloud
 
 ::: news-card
 ::: news-card__image
-![](img/Fairfax_v24 018.jpg)
+![](img/Fairfax_v24%20018.jpg)
 :::
 
 ::: news-card__text-wrapper
@@ -54,7 +53,7 @@ A methodological guide on designing your monitoring program and collecting data 
 
 ::: news-card
 ::: news-card__image
-![](img/19-138_Reef_v25 669.jpg)
+![](img/19-138_Reef_v25%20669.jpg)
 :::
 
 ::: news-card__text-wrapper
@@ -139,5 +138,4 @@ Tutorials and code snippets to guide you, step-by-step, on monitoring data analy
 :::
 :::
 :::
-
 :::
